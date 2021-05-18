@@ -1,0 +1,21 @@
+@import "header";
+@import "main";
+@import "footer";
+@import "baserules";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* transition: 0.5s ease all; */
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  li{
+    list-style: none;
+  }
+  span{
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,38 @@
+@import "baserules";
+
+header {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  nav {
+    display: flex;
+    align-items: center;
+    margin: 0px 25px;
+    width: 100%;
+    justify-content: space-between;
+    img {
+      width: 150px;
+      height: 60px;
+    }
+    ul {
+      display: flex;
+      flex-flow: row nowrap;
+      list-style: none;
+      height: 100%;
+      li {
+        color: white;
+        font-family: $montserrat;
+        font-size: 20px;
+        font-size: 500;
+        padding: 0px 15px;
+        align-self: center;
+        line-height: 80px;
+        &:hover{
+          font-size: 700;
+          background-color: rgb(60, 60, 60);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

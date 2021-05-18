@@ -1,0 +1,18 @@
+{
+  "name": "data-warehouse",
+  "version": "1.0.0",
+  "description": "proyecto 4 acamica - data warehouse",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dario arena",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.5.0"
+  }
+}
